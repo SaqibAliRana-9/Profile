@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Saqib Ali Rana</title>
+</head>
+<body style="background-color: gray;">
+
+    <header>
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="images\saqib.jfif" alt="My photo">
+            </div>
+            <div class="header-content">
+                <h1>Saqib Ali Rana</h1>
+                <p>Game Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I am a Game Developer with 2 year experience of making games and interactive experiences. My core profficiency is gameplay programming but i have experience with multiple aspects of game development ranging from environment design to admin backend integrations</p>
+    </section>
+
+    <section id="skills">
+        <h2 onclick="toggleSkills()">Skills <span id="toggle-icon-skill">+</span></h2>
+        <ul id="skills-list" style="display: none;">
+            <li id="skill">C#</li>
+            <li id="skill">Unity</li>
+            <li id="skill">Multiplayer</li>
+            <li id="skill">Shaders</li>
+            <li id="skill">HLSL</li>
+            <li id="skill">API Integrations</li>
+            <li id="skill">Third-party SDKs and plugins</li>
+            <li id="skill">JavaScript</li>
+            <li id="skill">Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2 onclick="toggleProjects()">Projects <span id="toggle-icon-project">+</span></h2>
+
+        <ul id="projects-list" style="display: none;">
+            <li id="proj">
+                <div class="project">
+                <h3>Truck Simulation Game for Android</h3>
+                <p>This was my first project which I completed using a few free assets. I designed the gameplay, made the environment, implemented UI, designed levels basically made the game myself while learning</p>
+                </div>
+            </li>
+            <li id="proj">
+                <div class="project">
+                    <h3>Real-time Strategy Game</h3>
+                    <p>It was a long term project i did for someone. I worked on it for about six months in which I programmed most of the core functionalities of an RTS game like enemy AI, player unit controller, Construction system, Resource managment etc.</p>
+                </div>
+            </li>
+            <li id="proj">
+                <div class="project">
+                    <h3>Virtual Teaching App</h3>
+                    <p>I made this project in my own time just experimenting to learn. In this project I used ReadyPlayerMe avatars, oculus Lip-Sync, Google text-tospeech along with OpenAI Api's(ChatGpt , Whisper) to create an app in which you can talk with an avatar about everything that chatGpt has to offer while the avatar talking like a human with help of lip-sync</p>
+                </div>
+            </li>
+            <li id="proj">
+                <div class="project">
+                    <h3>Debugging Multiplayer Ludo Game</h3>
+                    <p>It was something i did for a client who got scammed and bought a ludo game made in unity project for the purpose of earning from it but it was not playable and total spaghetti, I worked on it for a month and half fixed tens of different kinds of bugs and made the game enjoyable and ready to be published</p>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+        <a href="https://www.linkedin.com/in/saqib-ali-rana-918802178" target="_blank" style="margin-left: 40%;"><i style="font-size:46px"class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/SaqibAliRana-9" target="_blank"><i style="font-size:46px"class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://wa.link/ulepva"><i style="font-size:46px" class="fa">&#xf232;</i></a>
+        <a href="mailto:saqibrana0390@gmail.com"><i style="font-size:46px" class="fa fa-envelope" aria-hidden="true"></i></a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
