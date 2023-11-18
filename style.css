@@ -85,3 +85,38 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#Icons{
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-image img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #proj {
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    #Icons{
+        margin-left: 25%;
+    }
+
+    section{
+        width: 97%;
+    }
+}
